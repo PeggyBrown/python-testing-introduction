@@ -21,4 +21,7 @@ class MyTestCase(unittest.TestCase):
     def test_changing_vat_with_incorrect_value(self):
         calc = PriceCalculator()
         with pytest.raises(ValueError):
+            calc.change_vat(-1)
+            calc.change_vat(0)
             calc.change_vat(1)
+            calc.change_vat(8)
