@@ -1,13 +1,11 @@
-import unittest
-
 import pytest
 
 from PriceCalculator import PriceCalculator
 
 
-class MyTestCase(unittest.TestCase):
+class TestPriceCalculator:
 
-    def test_calculating_gross_price_with_defailt_vat(self):
+    def test_calculating_gross_price_with_default_vat(self):
         calc = PriceCalculator()
         result = calc.calculate_gross_price(100)
         assert result == 123
