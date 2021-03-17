@@ -27,6 +27,3 @@ class TestPriceCalculator:
         calc = self.calc
         with pytest.raises(ValueError):
             calc.change_vat(-1)
-            calc.change_vat(0)
-            calc.change_vat(1)
-            calc.change_vat(8)
