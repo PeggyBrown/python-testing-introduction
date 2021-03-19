@@ -9,3 +9,5 @@ or just
 if you don't need to see the details of tests being run  
 if you don't have `pytest`, simply run `pip install pytest`
 
+# To run the whole program
+`python Main.py `
