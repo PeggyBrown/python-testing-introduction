@@ -1,3 +1,4 @@
+
 class PriceCalculator:
 
     def __init__(self):

@@ -1,8 +1,9 @@
-from InputTaker import take_float, take_string
-from PriceCalculator import PriceCalculator
+from input_taker import take_float, take_string
+from price_calculator import PriceCalculator
 
 
 class Main:
+
     calc = PriceCalculator()
 
     def current_vat_info(self):
